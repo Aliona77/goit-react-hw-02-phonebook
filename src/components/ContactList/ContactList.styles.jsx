@@ -18,11 +18,13 @@ font-size:18px;
 font-weight: 400;
 `
 export const ButtonDelete = styled.bytton`
-  background-color: red;
-  color: aliceblue;
+background-color: #fff;
+cursor: pointer;
+  border-radius:5px;
+  border: 2px solid #eee;
   cursor: pointer;
-  &:hover{
-    color: #79e000;
-    border:  solid 2px #79e000;
-    box-shadow: 1px 2px 2px 0 rgba(121, 224, 0, 0.5);
+  &:hover {
+    box-shadow: 0 0 20px rgba(50, 50, 93, 0.25);
+    background: blue;
+  }
 `

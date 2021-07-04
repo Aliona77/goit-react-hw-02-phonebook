@@ -2,7 +2,7 @@ import {Component} from "react";
 import { Label, Input, ButtonSubmit, Span } from './ContactForm.styles'
 import { v4 as uuidv4 } from 'uuid';
 
-export default class Form extends Component {
+export default class ContactForm extends Component {
     state = {
         name: '',
         number: '',
@@ -49,7 +49,7 @@ export default class Form extends Component {
             </Label>
         
             <Label>
-                <Span htmlFor={this.numberInputId}>Name</Span>
+                <Span htmlFor={this.numberInputId}>Number</Span>
                  <Input
                   type="tel"
                     name="number"

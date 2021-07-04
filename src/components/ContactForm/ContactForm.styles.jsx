@@ -1,24 +1,21 @@
 import styled from '@emotion/styled/macro';
 
 export const Label = styled.label`
-display: flex;
+font-size:18px;
+font-weight:500;
+justify-content:center;
+padding-bottom: 10px;
+margin:0;
 `
-// export const ContactForm = styled.form`
-// backhround-color: #fff;
-// padding: 24 px;
 
-// & input{
-//     display: block;
-//     margin-bottom: 12px;
-// }
-// `
 export const Input = styled.input`
-
-  width: 300px;
-  font-size: 22px;
-
+  display: flex;
+  padding: 6px;
+  margin-bottom: 20px;
+  border-radius:5px;
+  min-width: 350px;
+  cursor: pointer;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
     &:focus{
@@ -27,20 +24,19 @@ export const Input = styled.input`
     }
 `
 export const ButtonSubmit = styled.button`
-  background-color: #ff6b0a;
-  border: none;
+  background-color: #fff;
   outline: none;
   padding: 8px 16px;
-  color: #fff;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 20px;
   text-transform: uppercase;
   cursor: pointer;
+   border-radius:5px;
+   border: 2px solid #eee;
    &:hover {
-    box-shadow: 0 0 10px 0 #f137a6 inset, 0 0 10px 4px #f137a6;
-    color: #f137a6;
-    background: #a4dada;
+    box-shadow: 0 0 20px rgba(50, 50, 93, 0.25);
+    background: blue;
   }
   `
 export const Span = styled.span`
