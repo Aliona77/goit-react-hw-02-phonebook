@@ -13,7 +13,7 @@ export const Containers = styled.div`
   margin-right: auto;
   padding: 20px 40px;
 
-  background-color: rgba(8, 216, 243, 0.74);
+  background-color: rgb(47, 154, 255);
   box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
   border-radius: 5px;
   &:hover{
