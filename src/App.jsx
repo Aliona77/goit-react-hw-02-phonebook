@@ -33,7 +33,7 @@ export default class App extends Component{
   };
 
   changeFilterInput = (e) => {
-    this.setState({ filter: e.target.value });
+    this.setState({ filter: e.currentTarget.value });
   };
   onFilteredContacts = () => {
     const { filter, contacts } = this.state;
