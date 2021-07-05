@@ -17,7 +17,7 @@ export default class App extends Component{
 
   formSubmitHandler = ({ name, number }) => {
     const { contacts } = this.state;
-    const entry = {
+    const usher = {
       id: uuidv4(),
       name,
       number,
@@ -28,7 +28,7 @@ export default class App extends Component{
     }
     this.setState((prevState) => ({
       ...prevState,
-      contacts: [entry, ...prevState.contact],
+      contacts: [usher, ...prevState.contacts],
     }));
   };
 
@@ -61,7 +61,6 @@ export default class App extends Component{
           contacts={filteredContacts}
           onDeleteContact={this.DeleteContact}
         />
-      
       </Container>
     );
   }

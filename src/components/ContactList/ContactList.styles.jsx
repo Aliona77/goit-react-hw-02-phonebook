@@ -3,7 +3,7 @@ import styled from '@emotion/styled/macro';
 
 
 export const Contact = styled.ul`
-width: 350px;
+width: 300px;
 padding: 0;
 `
 
@@ -15,13 +15,13 @@ justify-content: space-around;
 `
 export const Text = styled.p`
 font-size:18px;
-font-weight: 400;
+font-weight: 500;
 `
 export const ButtonDelete = styled.bytton`
 background-color: #fff;
 cursor: pointer;
   border-radius:5px;
-  border: 2px solid #eee;
+  border: 1px solid black;
   cursor: pointer;
   &:hover {
     box-shadow: 0 0 20px rgba(50, 50, 93, 0.25);

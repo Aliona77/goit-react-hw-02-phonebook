@@ -1,5 +1,5 @@
 import {Component} from "react";
-import { Label, Input, ButtonSubmit, Span } from './ContactForm.styles'
+import { Label, Input, ButtonAdd, Span } from './ContactForm.styles'
 import { v4 as uuidv4 } from 'uuid';
 
 export default class ContactForm extends Component {
@@ -63,9 +63,9 @@ export default class ContactForm extends Component {
                 />
                 </Label>
                
-               <ButtonSubmit
+               <ButtonAdd
                     type="submit"
-                    disabled={!name|| !number} >Add contact </ButtonSubmit>
+                    disabled={!name|| !number} >Add contact</ButtonAdd>
               </form>
         )
         }
