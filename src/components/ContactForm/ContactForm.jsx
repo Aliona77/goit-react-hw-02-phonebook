@@ -58,7 +58,7 @@ export default class ContactForm extends Component {
                     title="Номер телефона должен состоять цифр и может содержать пробелы, тире, круглые скобки и может начинаться с +"
                     required
                     onChange={this.handleChange}
-                    vakue={number}
+                    value={number}
                     id={this.nameInputId}
                 />
                 </Label>
